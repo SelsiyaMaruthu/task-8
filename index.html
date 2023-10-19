@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey-form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        
+        <form action="submit_survey.php" method="post">
+            <label for="name"> <b>Name*</b></label><br>
+            <input type="text" id="name" name="name" required>
+            <label for="name"></label>
+            <input type="text" id="name" name="name" required><br><br><br>
+            <label for="email"><b>Email*</b></label><br>
+            <input type="email" id="email" name="email" required>
+           <h4><b>your experience*</b></h4>
+           <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<p>overall,how would you rate you experience with us? </p>
+<h4><b>How satisfied are you with*</b></h4>
+<table>
+    <tr>
+      <th></th>
+      <th>very satisfied</th>
+      <th>unsatisfied</th>
+      <th>neutral</th>
+      <th>satisfied</th>
+      <th>very satisfied</th>
+    </tr>
+    <tr>
+      <td>purchase</td>
+      <td><input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html"></label><br></td>
+      <td><input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html"></label><br></td>
+      <td><input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html"></label><br></td>
+    <td><input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html"></label><br></td>
+    <td><input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html"></label><br></td>
+    </tr>
+    <tr>
+      <td>service</td>
+      <td><input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html"></label><br></td>
+      <td><input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html"></label><br></td>
+      <td><input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html"></label><br></td>
+    <td><input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html"></label><br></td>
+    <td><input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html"></label><br></td>
+      
+    </tr>
+    <tr>
+      <td>company overall</td>
+     <td><input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html"></label><br></td>
+      <td><input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html"></label><br></td>
+      <td><input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html"></label><br></td>
+    <td><input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html"></label><br></td>
+    <td><input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html"></label><br></td>
+    </tr>
+  </table>
+  <p><b>How likely are you to*</b></p>
+  <table>
+    <tr>
+      <th></th>
+      <th>very unlikely</th>
+      <th>unlikely</th>
+      <th>neutral</th>
+      <th>likely</th>
+      <th>very likely</th>
+    </tr>
+    <tr>
+      <td>Buy from us again</td>
+      <td><input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html"></label><br></td>
+      <td><input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html"></label><br></td>
+      <td><input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html"></label><br></td>
+    <td><input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html"></label><br></td>
+    <td><input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html"></label><br></td>
+    </tr>
+    <tr>
+      <td>Recommand our product to others</td>
+      <td><input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html"></label><br></td>
+      <td><input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html"></label><br></td>
+      <td><input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html"></label><br></td>
+    <td><input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html"></label><br></td>
+    <td><input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html"></label><br></td>
+      
+    </tr>
+    <tr>
+      <td>Recommand our company to others</td>
+     <td><input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html"></label><br></td>
+      <td><input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html"></label><br></td>
+      <td><input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html"></label><br></td>
+    <td><input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html"></label><br></td>
+    <td><input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html"></label><br></td>
+    </tr>
+  </table>
+  <h4><b>Additional Commands or suggestions</b></h4>
+  <label for="freeform"></label>
+<br>
+
+<textarea id="freeform" name="freeform" rows="10" cols="150">
+</textarea><br>
+<button>submit</button>
+
+ </form>   
+</body>
+</html>
